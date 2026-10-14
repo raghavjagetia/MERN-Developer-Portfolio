@@ -2,7 +2,7 @@
 // Until MONGO_URI is configured, the API serves this file directly.
 
 export const profile = {
-  name: 'Alex Morgan',
+  name: 'Raghav Jagetia',
   role: 'Full-Stack MERN Developer',
   tagline: 'I build fast, accessible web products from database to pixel.',
   summary:
@@ -374,26 +374,26 @@ const t = (name, title, quote, rating = 5) => ({ name, title, quote, rating });
 
 // 20 testimonials.
 export const testimonials = [
-  t('Priya Shah', 'Founder, ShopWave', 'Alex rebuilt our store in record time. Conversions went up a third within the first month — the best hire we made all year.'),
+  t('Priya Shah', 'Founder, ShopWave', 'Raghav rebuilt our store in record time. Conversions went up a third within the first month — the best hire we made all year.'),
   t('Daniel Kim', 'CTO, Nimbus Labs', 'A rare engineer who is equally strong on the frontend and backend, and who communicates clearly with the whole team.'),
-  t('Maria Lopez', 'Product Manager, BrightCart', 'Reliable, proactive and detail-obsessed. Every release Alex shipped was polished and on time.'),
-  t('Tom Becker', 'Engineering Lead, PixelForge', 'Alex picks up new technologies quickly and leaves every codebase cleaner than they found it.'),
-  t('Aisha Khan', 'CEO, Bookify', 'Our no-shows dropped by more than half. Alex understood our business, not just the code.'),
-  t('Lucas Martin', 'Director, Learnly Academy', 'The LMS Alex built is the backbone of our academy. Students love it and so do our instructors.'),
-  t('Sofia Rossi', 'Owner, Cartly', 'From idea to a working marketplace in months. Alex was a true partner throughout.'),
+  t('Maria Lopez', 'Product Manager, BrightCart', 'Reliable, proactive and detail-obsessed. Every release Raghav shipped was polished and on time.'),
+  t('Tom Becker', 'Engineering Lead, PixelForge', 'Raghav picks up new technologies quickly and leaves every codebase cleaner than they found it.'),
+  t('Aisha Khan', 'CEO, Bookify', 'Our no-shows dropped by more than half. Raghav understood our business, not just the code.'),
+  t('Lucas Martin', 'Director, Learnly Academy', 'The LMS Raghav built is the backbone of our academy. Students love it and so do our instructors.'),
+  t('Sofia Rossi', 'Owner, Cartly', 'From idea to a working marketplace in months. Raghav was a true partner throughout.'),
   t('Ethan Brooks', 'Head of Support, SentiScope', 'We finally understand our customers at scale. The AI pipeline just works.'),
-  t('Hana Suzuki', 'Designer, PixelMuse', 'Alex translated my designs perfectly and added micro-interactions I did not even think of.'),
+  t('Hana Suzuki', 'Designer, PixelMuse', 'Raghav translated my designs perfectly and added micro-interactions I did not even think of.'),
   t('Omar Haddad', 'Founder, FoodieGo', 'Live tracking was a game changer for our restaurants. Fantastic execution.'),
-  t('Emily Clarke', 'VP Sales, PulseCRM', 'Our win rate jumped after moving to the CRM Alex built. Simple, fast and exactly what we needed.'),
+  t('Emily Clarke', 'VP Sales, PulseCRM', 'Our win rate jumped after moving to the CRM Raghav built. Simple, fast and exactly what we needed.'),
   t('Ravi Patel', 'Bootcamp Lead, CodeCamp', 'One of the best students we have had — and now a fantastic mentor to our cohorts.'),
   t('Grace Liu', 'Operations, Inventrix', 'Stockouts went down dramatically. The barcode workflow saved our team hours every day.'),
   t('Noah Fischer', 'CTO, Subscribely', 'Billing used to be a nightmare. Now it is fully automated and error-free.'),
   t('Chloe Dubois', 'Product Owner, MediCore', 'Security and usability done right. Patients and doctors both adopted it immediately.'),
   t('Mateo Garcia', 'Organiser, EventHub', 'Check-in lines disappeared. Our attendees noticed the difference instantly.'),
   t('Zara Ahmed', 'Recruiter, HireHub', 'The applicant tracking made our hiring so much faster. Highly recommended.'),
-  t('Ben Turner', 'Founder, TravelMate', 'Alex shipped features faster than we could write the specs — with great quality.', 4),
+  t('Ben Turner', 'Founder, TravelMate', 'Raghav shipped features faster than we could write the specs — with great quality.', 4),
   t('Isla Murphy', 'Manager, DocuChat', 'Our team now finds policy answers in seconds. Impressive work on a tricky problem.'),
-  t('Kenji Watanabe', 'Lead Dev, CodeCollab', 'Rock-solid realtime engineering. Alex knows how to make distributed systems feel simple.'),
+  t('Kenji Watanabe', 'Lead Dev, CodeCollab', 'Rock-solid realtime engineering. Raghav knows how to make distributed systems feel simple.'),
 ];
 
 // 12 FAQs.

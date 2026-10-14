@@ -35,7 +35,7 @@ function Boot() {
 
   return (
     <div className="boot">
-      <span className="logo-mark boot-mark">AM</span>
+      <span className="logo-mark boot-mark">RJ</span>
       {state === 'loading' ? (
         <>
           <div className="boot-bar"><i /></div>

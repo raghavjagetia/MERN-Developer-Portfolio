@@ -5,6 +5,7 @@ import { navLinks } from '../nav.js';
 import { Reveal } from './Motion.jsx';
 
 export default function Footer() {
+  const initials = profile.name.split(' ').map((w) => w[0]).join('').slice(0, 2);
   return (
     <footer className="footer">
       <div className="container">
@@ -20,7 +21,7 @@ export default function Footer() {
         </Reveal>
         <div className="footer-in">
           <div className="footer-brand">
-            <Link to="/" className="logo"><span className="logo-mark">AM</span><span className="logo-text">{profile.name}</span></Link>
+            <Link to="/" className="logo"><span className="logo-mark">{initials}</span><span className="logo-text">{profile.name}</span></Link>
             <p className="muted small">{profile.tagline}</p>
             <span className={profile.available ? 'status on' : 'status'}><i /> {profile.available ? 'Available for work' : 'Currently booked'}</span>
           </div>

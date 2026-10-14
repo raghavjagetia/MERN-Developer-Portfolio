@@ -13,6 +13,7 @@ export default function Header() {
   const { theme, toggleTheme, setPaletteOpen } = useUI();
   const { insights, track } = useTracker();
   const { pathname } = useLocation();
+  const initials = profile.name.split(' ').map((w) => w[0]).join('').slice(0, 2);
 
   useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
@@ -37,7 +38,7 @@ export default function Header() {
       <div className="progress" style={{ width: `${progress}%` }} />
       <div className="container header-in">
         <Link to="/" className="logo" aria-label="Home">
-          <span className="logo-mark">AM</span>
+          <span className="logo-mark">{initials}</span>
           <span className="logo-text">{profile.name}</span>
         </Link>
 
